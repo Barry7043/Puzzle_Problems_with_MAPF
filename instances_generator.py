@@ -11,33 +11,6 @@ def swap(state, i, j):
     # print(new_state)
     return new_state
 
-# def up(state):
-# 	zero_index = state.index(0)
-# 	if zero_index > 3:
-# 	    return swap(state, zero_index, zero_index - 4)
-# 	else:
-# 	    return None
-
-# def down(state):
-# 	zero_index = state.index(0)
-# 	if zero_index < 12:
-# 	    return swap(state, zero_index, zero_index + 4)
-# 	else:
-# 	    return None
-
-# def left(state):
-# 	zero_index = state.index(0)
-# 	if zero_index % 4 != 0:
-# 	    return swap(state, zero_index, zero_index - 1)
-# 	else:
-# 	    return None
-
-# def right(state):
-# 	zero_index = state.index(0)
-# 	if (zero_index + 1) % 4 != 0:
-# 	    return swap(state, zero_index, zero_index + 1)
-# 	else:
-# 	    return None
 
 def up(state):
 	zero_index = state.index(0)
